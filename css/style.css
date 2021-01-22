@@ -1,0 +1,512 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.title h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+.title p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+/* header section code start */
+
+.header{
+    width: 100%;
+    background: #f4f9f4;
+}
+.header .bg-light{
+    background: transparent !important;
+}
+.header .bg-light img{
+    width: 60px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+.header .navbar-light .navbar-nav .nav-link{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    margin-left: 50px;
+    transition: 1s;
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+    color: teal;
+}
+.header .inner-header{
+    width: 100%;
+    padding: 80px 0px;
+}
+.header .inner-header .first-div img{
+    width: 100%;
+}
+.header .inner-header .second-div{
+    text-align: center;
+    margin-top: 160px;
+}
+.header .inner-header .second-div h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #6c9894;
+    margin-bottom: 20px;
+}
+.header .inner-header .second-div p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #6c9894;
+}
+.header .btn-info{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    padding: 3px 30px;
+    border-radius: 50px;
+    background: #6c9894;
+    border: 1px solid #6c9894;
+    transition: 1s;
+}
+.header .btn-info:hover, .header .btn-info:focus{
+    color: #6c9894;
+    background: transparent;
+    border: 1px solid #6c9894;
+}
+
+/* header section code end */
+
+/* class section start */
+
+.class{
+    width: 100%;
+    padding: 80px 0px;
+    background: #6c9894;
+}
+.class .box-card{
+    width: 100%;
+    text-align: center;
+}
+.class .box-card .card-img-top{
+    width: 100%;
+    margin-left: 35px;
+}
+.class .box-card .card{
+    background: transparent !important;
+    border: none;
+    padding: 10px;
+}
+.class .box-card .card-body{
+    width: 100%;
+    text-align: center;
+}
+.class .box-card .card-body h5{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 65px;
+}
+.class .box-card .card-body p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+    margin-left: 65px;
+}
+
+/* class section end */
+
+/* start section start */
+
+.start{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg1.png") center top no-repeat;
+    background-size: cover;
+}
+.start .title h1{
+    color: #6c9894;
+}
+.start .title p{
+    color: #6c9894;
+    margin-bottom: 80px;
+}
+.start .inner-title{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: block;
+    border: 3px solid #6c9894;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.start .inner-title h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #6c9894;
+    margin-top: 70px;
+}
+.start .inner-title p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c9894;
+}
+
+/* start section start */
+
+/* instructor section start */
+
+.instructor{
+    width: 100%;
+    padding: 90px 0px;
+    background: #6c9894;
+}
+.instructor .inner-ins{
+    width: 100%;
+    margin-top: 200px;
+}
+.instructor .inner-ins h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.instructor .inner-ins p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.instructor .btn-primary{
+    font-size: 18px;
+    font-weight: 600;
+    color: #6c9894;
+    padding: 8px 40px;
+    background: #fff;
+    border: 2px solid #6c9894;
+    border-radius: 2px;
+    transition: 1s;
+}
+.instructor .btn-primary:hover, .instructor .btn-primary:focus{
+    color: #fff;
+    background: #6c9894;
+    border: 2px solid #fff;
+}
+
+/* instructor section end */
+
+/* experience section start */
+
+.experience{
+    width: 100%;
+    padding: 90px 0px;
+    background: url("../images/bg4.png") center top no-repeat;
+    background-size: cover;
+}
+.experience .second-exp{
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.experience .second-exp h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #6c9894;
+    margin-bottom: 30px;
+}
+.experience .second-exp p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #6c9894;
+    margin-bottom: 40px;
+}
+.experience .btn-primary{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 40px;
+    background: #6c9894;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    transition: 1s;
+}
+.experience .btn-primary:hover, .experience .btn-primary:focus{
+    color: #6c9894;
+    background: #fff;
+    border: 2px solid #6c9894;
+}
+
+/* experience section end */
+
+/* pricing section start */
+
+.pricing{
+    width: 100%;
+    padding: 80px 0px;
+    background: #6c9894;
+}
+.pricing .new-card{
+    width: 100%;
+    text-align: center;
+    margin-left: 27px;
+}
+.pricing .new-card .card{
+    padding: 20px 10px;
+}
+.pricing .new-card .card-img-top{
+    width: 35%;
+    margin: 20px auto;
+}
+.pricing .new-card .card h2{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #6c9894;
+    margin-top: 5px;
+}
+.pricing .new-card .card p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6c9894;
+}
+.pricing .new-card .btn-primary{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    color: #fff;
+    background: #6c9894;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    transition: 1s;
+}
+.pricing .new-card .btn-primary:hover, .pricing .new-card .btn-primary:focus{
+    color: #6c9894;
+    background: #fff;
+    border: 1px solid #6c9894;
+}
+
+/* pricing section end */
+
+/* trainer section start */
+
+.trainer{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg5.png") center top no-repeat;
+    background-size: cover;
+}
+.trainer .trainer-card{
+    width: 100%;
+    text-align: center;
+}
+.trainer .trainer-card .card{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: transparent !important;
+}
+.trainer .trainer-card .card-img-top{
+    width: 30%;
+    margin: 20px auto;
+}
+.trainer .trainer-card .card-body p{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #6c9894;
+}
+.trainer .trainer-card .card-body h5{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 20px auto 0px;
+    color: #6c9894;
+}
+
+/* trainer section end */
+
+/* update section start */
+
+.update{
+    width: 100%;
+    padding: 80px 0px;
+    background: #6c9894;
+}
+.update .footer-update{
+    width: 100%;
+    text-align: center;
+}
+.update .main-form{
+    position: relative;
+    z-index: 1;
+}
+.update .form-control{
+    display: block;
+    width: 70%;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ebf1f1;
+    background-color: transparent !important;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    margin: 10px auto;
+    position: relative;
+}
+.update .footer-update .btn-primary{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #6c9894;
+    border: 1px solid #6c9894;
+    background: #fff;
+    transition: 1s;
+    top: 3px;
+    right: 172px;
+}
+.update .footer-update .btn-primary:hover, .update .footer-update .btn-primary:focus{
+    color: #fff;
+    border: 1px solid #fff;
+    background: #6c9894;
+}
+
+/* update section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+}
+.footer .inner-footer{
+    width: 100%;
+}
+.footer .inner-footer h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #6c9894;
+}
+.footer .inner-footer p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #6c9894;
+}
+.footer .second-footer{
+    width: 100%;
+}
+.footer .second-footer h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #6c9894;
+}
+.footer .second-footer p{
+    margin: 0px;
+}
+.footer .second-footer a{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #6c9894;
+    transition: 1s;
+}
+.footer .second-footer a:hover, .footer .second-footer a:focus{
+    color: #000;
+}
+.footer .third-footer{
+    width: 100%;
+}
+.footer .third-footer h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #6c9894;
+}
+.footer .third-footer p{
+    margin: 0px;
+}
+.footer .third-footer a{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #6c9894;
+    transition: 1s;
+}
+.footer .third-footer a:hover, .footer .third-footer a:focus{
+    color: #000;
+}
+.footer .forth-footer{
+    width: 100%;
+}
+.footer .forth-footer h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #6c9894;
+}
+.footer .forth-footer ul{
+    padding: 0px;
+}
+.footer .forth-footer li{
+    list-style: none;
+}
+.footer .forth-footer li .fa{
+    width: 10%;
+    margin-right: 5px;
+}
+.footer .forth-footer a{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+    color: #6c9894;
+    transition: 1s;
+}
+.footer .forth-footer a:hover, .footer .forth-footer a:focus{
+    color: #000;
+}
+
+/* footer section end */
